@@ -15,16 +15,12 @@
 #include "stdio.h"
 #include "BCD.h"
 
-uint8_t bcd_number_to_int(uint8_t bcd){
-    return bcd-(bcd >> 4)*6;
+uint8_t bcd_str_to_int(char bcd[]){
+    return atoi(bcd);
 }
 
-uint8_t bcd_str_to_int(char bcd[]){
-    char first[2] = {0};
-    char second[2] = {0};
-    first[0] = bcd[0];
-    second[0] = bcd[1];
-    return atoi(first)*10 + atoi(second);
+uint8_t bcd_number_to_int(uint8_t bcd){
+    return bcd-(bcd >> 4)*6;
 }
 
 void int_to_bcd_str(uint8_t num,char result[]){
