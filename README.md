@@ -6,7 +6,7 @@ test_example.c是测试用例，展示了典型使用方法，并在Ubuntu14.04 
 
 请使用
 
-`gcc -Wall -std=c99 -o BCD.out BCD.c`
+`gcc -Wall -std=c99 -o BCD.out BCD.c test_example.c`
 
 进行编译
 
