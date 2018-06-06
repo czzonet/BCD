@@ -14,6 +14,12 @@
 #include "stdio.h"
 #include "BCD.h"
 
+/**
+  * @brief  Main program.
+  * @param  None
+  * @retval None
+  测试函数
+  */
 int main(int argc, char const *argv[])
 {
     char original_bcd_str[] = "68";
@@ -38,4 +44,4 @@ int main(int argc, char const *argv[])
 
     return 0;
 }
-/**********************end of file*/
+/************************ (C) COPYRIGHT *****END OF FILE****/

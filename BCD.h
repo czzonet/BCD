@@ -10,4 +10,4 @@ void int_to_bcd_str(uint8_t num,char result[]);
 uint8_t int_to_bcd_number(uint8_t num);
 
 #endif  //__BCD_H__
-/**********************end of file*/
+/************************ (C) COPYRIGHT *****END OF FILE****/
